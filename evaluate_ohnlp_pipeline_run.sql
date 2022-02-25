@@ -2,7 +2,7 @@
 --OPTIONAL: indicates that query uses additional data stored in OHDSI
 --ADVANCED: indicates uses PostGreSQL specific syntax/functions which would need to be rewritten
 
---Author: Janos Hajagos
+--Author: Janos Hajagos (jhajagos)
 
 --Set the search path
 set search_path to sbm_covid19_documents, sbm_covid19_hi_cdm_build;
