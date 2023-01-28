@@ -4,8 +4,8 @@ get_latest_release() {
   curl --silent "https://api.github.com/repos/$1/releases/latest" | grep '"tag_name":' | sed -E 's/.*"([^"]+)".*/\1/'
 }
 
-mkdir OHNLPTK_RECOVER
-cd OHNLPTK_RECOVER
+mkdir OHNLPTK
+cd OHNLPTK
 
 # Install Backbone
 BACKBONE_TAG=$(get_latest_release OHNLP/Backbone)
