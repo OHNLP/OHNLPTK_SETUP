@@ -1,5 +1,5 @@
-# OHNLPTK Environment Setup for PASC/RECOVER
-Installation and Preparation Scripts for setting up OHNLPTK for the RECOVER Task.
+# OHNLP Toolkit Environment Setup
+Installation and Preparation Scripts for setting up OHNLP Toolkit configured for an example PASC/RECOVER NLP task
 ## System Requirements and Recommendations
 * Java 9-11
 * Unix-Based System 
