@@ -14,6 +14,14 @@ wget https://github.com/OHNLP/Backbone/releases/download/$BACKBONE_TAG/Backbone.
 unzip Backbone.zip
 rm Backbone.zip
 
+# Install Backbone Configurator
+CONFIGURATOR_TAG=$(get_latest_release OHNLP/BackboneConfigurator)
+echo "Installing Backbone Configurator $CONFIGURATOR_TAG..."
+wget https://github.com/OHNLP/BackboneConfigurator/releases/download/$CONFIGURATOR_TAG/BackboneConfigurator.zip -O Configurator.zip
+unzip Configurator.zip
+rm Configurator.zip
+
+# Install MedTagger
 MEDTAGGER_TAG=$(get_latest_release OHNLP/MedTagger)
 echo "Installing MedTagger $MEDTAGGER_TAG..."
 mkdir temp
@@ -30,4 +38,4 @@ fi
 cd ..
 rm -r temp
 
-echo "OHNLPTK Installed Successfully (Backbone $BACKBONE_TAG, MedTagger $MEDTAGGER_TAG)"
+echo "OHNLPTK Installed Successfully (Backbone $BACKBONE_TAG, Configurator $CONFIGURATOR_TAG, MedTagger $MEDTAGGER_TAG)"
