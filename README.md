@@ -1,7 +1,7 @@
 # OHNLP Toolkit Environment Setup
 Installation and Preparation Scripts for setting up OHNLP Toolkit configured for an example PASC/RECOVER NLP task
 ## System Requirements and Recommendations
-* Java 9-11
+* Java 9+ (13+ recommended)
 * Unix-Based System 
     * `unzip` must be installed (e.g. via `apt-get install zip unzip`)
 ## Installation Instructions
