@@ -13,3 +13,6 @@ Installation and Preparation Scripts for setting up OHNLP Toolkit configured for
 **For a Local Run:** Run `run_pipeline_local.sh`. You will be prompted for the configuration to use. Alternatively, run `run_pipeline_local.sh your_config_name.json` for non-interactive execution
 
 **For other environments:** Executed `package_modules_and_configs.sh` and edit the `run_pipeline_###` appropriate to your environment and replace declared variables as appropriate.
+
+## Example result analytics
+For an example NLP output summary script against PostgreSQL, please refer to `evaluate_ohnlp_pipeline_run.sql`
